@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search</title>
+    <link rel="stylesheet" href="wiki.css"/>
+    <script src="https://peculiar-codes.github.io/peculiar.github.io/peculiar.js"></script>
+  </head>
+  <body>
+    <form id="searchForm" class="search">
+      <input id="searchInput"  type="text" autocomplete="off" />
+      <button for="search" id="search_btn" class="btn">Search</button>
+    </form>
+    <div id="resultsList"></div>
+    <div id="result">
+      <span onclick="document.querySelector('#result').style.display=none;"
+        >x</span
+      >
+    </div>
+    <script src="wiki.js"></script>
+  </body>
+</html>
